@@ -1,0 +1,27 @@
+{
+    "status": 1,
+    "result": [
+        "error": "An unexpected error occurred. Please include this ErrorId if you contact support: 930263533-401529 (1302355068)",
+        "fullName": "Help1",
+        "type": "ExperienceBundle",
+        "filePath": "force-app\\main\\default\\experiences\\Help1.site-meta.xml",
+        "problemType": "Error"
+      }
+    ],
+    "name": "DeployFailed",
+    "message": "Push failed.",
+    "exitCode": 1,
+    "actions": [],
+    "commandName": "SourcePushCommand",
+    "data": [
+        {
+            "error": "An unexpected error occurred. Please include this ErrorId if you contact support: 930263533-401529 (1302355068)",
+            "fullName": "Help1",
+            "type": "ExperienceBundle",
+            "filePath": "force-app\\main\\default\\experiences\\Help1.site-meta.xml",
+            "problemType": "Error"
+        }
+    ],
+    "stack": "DeployFailed: Push failed.\n    at C:\\Users\\remil\\AppData\\Local\\sfdx\\client\\7.66.2-4f159a1d07\\node_modules\\salesforce-alm\\dist\\lib\\source\\sourceApiCommand.js:74:31\n    at tryCatcher (C:\\Users\\remil\\AppData\\Local\\sfdx\\client\\7.66.2-4f159a1d07\\node_modules\\salesforce-alm\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (C:\\Users\\remil\\AppData\\Local\\sfdx\\client\\7.66.2-4f159a1d07\\node_modules\\salesforce-alm\\node_modules\\bluebird\\js\\release\\promise.js:517:31)\n    at Promise._settlePromise (C:\\Users\\remil\\AppData\\Local\\sfdx\\client\\7.66.2-4f159a1d07\\node_modules\\salesforce-alm\\node_modules\\bluebird\\js\\release\\promise.js:574:18)\n    at Promise._settlePromise0 (C:\\Users\\remil\\AppData\\Local\\sfdx\\client\\7.66.2-4f159a1d07\\node_modules\\salesforce-alm\\node_modules\\bluebird\\js\\release\\promise.js:619:10)\n    at Promise._settlePromises (C:\\Users\\remil\\AppData\\Local\\sfdx\\client\\7.66.2-4f159a1d07\\node_modules\\salesforce-alm\\node_modules\\bluebird\\js\\release\\promise.js:695:18)\n    at _drainQueueStep (C:\\Users\\remil\\AppData\\Local\\sfdx\\client\\7.66.2-4f159a1d07\\node_modules\\salesforce-alm\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at _drainQueue (C:\\Users\\remil\\AppData\\Local\\sfdx\\client\\7.66.2-4f159a1d07\\node_modules\\salesforce-alm\\node_modules\\bluebird\\js\\release\\async.js:131:9)\n    at Async._drainQueues (C:\\Users\\remil\\AppData\\Local\\sfdx\\client\\7.66.2-4f159a1d07\\node_modules\\salesforce-alm\\node_modules\\bluebird\\js\\release\\async.js:147:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (C:\\Users\\remil\\AppData\\Local\\sfdx\\client\\7.66.2-4f159a1d07\\node_modules\\salesforce-alm\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at processImmediate (internal/timers.js:439:21)",
+    "warnings": []
+}
